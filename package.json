@@ -6,7 +6,6 @@
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
-    
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,11 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "@vimeo/player": "^2.23.0",
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.14.3",
+    "vimeo": "^2.3.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
